@@ -1,1 +1,151 @@
-h5{color: aqua;}
+header {
+
+    text-align: center;
+    /* color: #130CF6; */
+    font-size: 150%;
+    color: aliceblue;
+    font-family: "Oswald"
+
+}
+
+body {
+
+    text-align: center;
+    padding-left: 0rem;
+
+
+    /* color:#A6602E;*/
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+#Resume {
+    font-family: 'Poppins', sans-serif;
+    border: 1rem solid aliceblue;
+    max-width: fit-content;
+    display: flex;
+
+
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    border-style: inset;
+max-width: 500px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald";
+
+    font-size: 150%;
+
+}
+
+#images {
+    border: 1px solid aliceblue;
+    border-width: 5rem;
+    border-radius: 1rem;
+    border-style: inset;
+    box-sizing: content-box;
+    background-origin: padding-box;
+    border-width: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    pointer-events: painted;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#images img:hover {
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+#header :hover {
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+
+
+/*
+    * {
+        border:1px solid black;
+    }
+    */
+@media screen and (min-width:768px) {
+    /*(max-width: 1000px)*/
+
+    #Lit div {
+
+        max-width: 100%;
+        columns: 30rem;
+    }
+
+}
+
+
+
+
+blockquote {
+    font-size: 1rem;
+    line-height: 150%;
+    color: gray;
+}
+
+
+#Ego {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    border-radius: 3rem;
+    border: 1rem solid aliceblue;
+    border-style: inset;
+    padding-left: 1rem;
+    max-width:800px;
+}
+
+#Ego ul li, #Resume ul li {
+    text-align:left;
+}
+
+/* #Reviews {
+    display: flex;
+    flex-direction:column;
+     align-items:center;
+}*/
+#Reviews {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+
+    border: 1rem solid aliceblue;
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+    border-style: inset;
+max-width: 600px;
+}
+
+#image1 img:hover {}
+
+li span {
+    position: relative;
+    left: -10px;
+}
